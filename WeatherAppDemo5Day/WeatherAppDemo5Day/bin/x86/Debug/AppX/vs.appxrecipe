@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f8f456a6-9f5b-405b-8278-ad687ec727ea</PackageIdentityName>
     <PackageIdentityPublisher>CN=Thuong</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>9969702A5AABC939DE4B64F1973EC94CC54BEFEE0C4A1E9CAF344FCC9F61223D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>f8f456a6-9f5b-405b-8278-ad687ec727ea_1.0.0.0_x86__0yf7apxeaq0qj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>f8f456a6-9f5b-405b-8278-ad687ec727ea_0yf7apxeaq0qj!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-25T05:07:26.888</Modified>
+      <Modified>2018-10-27T01:43:13.540</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\WeatherAppDemo5Day.exe">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\WeatherAppDemo5Day.exe">
       <PackagePath>entrypoint\WeatherAppDemo5Day.exe</PackagePath>
-      <Modified>2018-10-25T05:07:26.156</Modified>
+      <Modified>2018-10-27T01:43:04.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.7\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -695,72 +695,144 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2018-07-20T03:48:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\may.jpg">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\may.jpg">
       <PackagePath>Assets\may.jpg</PackagePath>
       <Modified>2018-10-25T04:55:43.778</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-10-25T02:51:23.267</Modified>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\01d.png">
+      <PackagePath>Assets\Weather\01d.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.681</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\01n.png">
+      <PackagePath>Assets\Weather\01n.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\02d.png">
+      <PackagePath>Assets\Weather\02d.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\02n.png">
+      <PackagePath>Assets\Weather\02n.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\03d.png">
+      <PackagePath>Assets\Weather\03d.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\03n.png">
+      <PackagePath>Assets\Weather\03n.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\04d.png">
+      <PackagePath>Assets\Weather\04d.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\04n.png">
+      <PackagePath>Assets\Weather\04n.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\09d.png">
+      <PackagePath>Assets\Weather\09d.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\09n.png">
+      <PackagePath>Assets\Weather\09n.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\10d.png">
+      <PackagePath>Assets\Weather\10d.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\10n.png">
+      <PackagePath>Assets\Weather\10n.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\11d.png">
+      <PackagePath>Assets\Weather\11d.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\11n.png">
+      <PackagePath>Assets\Weather\11n.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\13d.png">
+      <PackagePath>Assets\Weather\13d.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\13n.png">
+      <PackagePath>Assets\Weather\13n.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\50d.png">
+      <PackagePath>Assets\Weather\50d.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Weather\50n.png">
+      <PackagePath>Assets\Weather\50n.png</PackagePath>
+      <Modified>2018-10-27T01:42:05.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-09-17T12:29:22.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T12:29:22.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T12:29:22.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T12:29:22.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T12:29:22.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T12:29:22.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T12:29:22.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\WeatherAppDemo5Day.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-10-25T02:51:23.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\WeatherAppDemo5Day.xr.xml">
       <PackagePath>WeatherAppDemo5Day.xr.xml</PackagePath>
-      <Modified>2018-10-25T04:56:53.953</Modified>
+      <Modified>2018-10-27T01:31:20.547</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-25T05:07:25.916</Modified>
+      <Modified>2018-10-27T01:43:03.871</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-25T05:07:25.918</Modified>
+      <Modified>2018-10-27T01:43:03.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T15:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-25T04:56:59.457</Modified>
+      <Modified>2018-10-27T01:43:09.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\Core\WeatherAppDemo5Day.exe">
+    <AppxPackagedFile Include="C:\Users\Thuong\source\repos\UWP_SEM3\WeatherAppDemo5Day\WeatherAppDemo5Day\bin\x86\Debug\Core\WeatherAppDemo5Day.exe">
       <PackagePath>WeatherAppDemo5Day.exe</PackagePath>
-      <Modified>2018-10-25T05:07:26.883</Modified>
+      <Modified>2018-10-27T01:43:13.526</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -7010,11 +7010,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thuong\\source\\repos\\WeatherAppDemo5Day\\WeatherAppDemo5Day\\WeatherAppDemo5Day.csproj",
+      "projectUniqueName": "C:\\Users\\Thuong\\source\\repos\\UWP_SEM3\\WeatherAppDemo5Day\\WeatherAppDemo5Day\\WeatherAppDemo5Day.csproj",
       "projectName": "WeatherAppDemo5Day",
-      "projectPath": "C:\\Users\\Thuong\\source\\repos\\WeatherAppDemo5Day\\WeatherAppDemo5Day\\WeatherAppDemo5Day.csproj",
+      "projectPath": "C:\\Users\\Thuong\\source\\repos\\UWP_SEM3\\WeatherAppDemo5Day\\WeatherAppDemo5Day\\WeatherAppDemo5Day.csproj",
       "packagesPath": "C:\\Users\\Thuong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thuong\\source\\repos\\WeatherAppDemo5Day\\WeatherAppDemo5Day\\obj\\",
+      "outputPath": "C:\\Users\\Thuong\\source\\repos\\UWP_SEM3\\WeatherAppDemo5Day\\WeatherAppDemo5Day\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

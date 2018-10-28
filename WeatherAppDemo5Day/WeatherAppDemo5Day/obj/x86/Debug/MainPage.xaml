@@ -16,7 +16,7 @@
                     <DataTemplate>
                         <StackPanel>
                             <TextBlock Name="DateTextBlock" Text="{Binding dt_txt}"/>
-                            <Image x:Name="ImgIcon" Source="Assets/may.jpg" Width="200" Height="200"/>
+                            <Image x:Name="ImgIcon" Source="{Binding Path=weather[0].icon}" Width="200" Height="200" HorizontalAlignment="Center"/>
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Name="TempTextBlock" Text="{Binding main.temp}"/>
                                 <TextBlock Text="&#186;"/>

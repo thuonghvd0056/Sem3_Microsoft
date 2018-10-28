@@ -41,8 +41,16 @@ namespace WeatherAppDemo5Day
 
             RootObject forecast = await APIManager.GetWeather(lat, lon);
             CityTextBlock.Text = forecast.city.name + " City";
-            for (int i=0; i<forecast.list.Count; i++)
+            for (int i = 0; i < forecast.list.Count; i++)
             {
+                //collection.Add(forecast.list[i]);
+                for (int j = 0; j < forecast.list[i].weather.Count; j++)
+                {
+                    string icon = string.Format("ms-appx:///Assets/Weather/{0}.png", forecast.list[i].weather[j].icon);
+                    var listReplace = forecast.list[i].weather[j];
+                    listReplace.icon = icon;
+                }
+
                 collection.Add(forecast.list[i]);
             }
             ForeCastGridView.ItemsSource = collection;
