@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="WeatherApp5days.WeatherApp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeatherApp5days"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="ButtonClick" Content="GetWeather"
+                Click="ButtonClick_Click" Grid.Row="0"
+                Grid.Column="0" Margin="0,20,0,0"/>
+        <StackPanel Background="Brown" Grid.Row="1"
+                    Grid.ColumnSpan="4" Margin="10,0,0,10">
+            <TextBlock Foreground="White" Name="ResultTexblock1"/>
+            <Image Name="ResultImage1" Width="250" Height="200"/>
+        </StackPanel>
+
+        <StackPanel Background="Brown" Grid.Row="2" Grid.Column="0" Margin="5">
+            <TextBlock Foreground="White" Name="ResultTexblock2"/>
+            <Image Name="ResultImage2" Width="200" Height="200"/>
+        </StackPanel>
+        <StackPanel Background="Brown" Grid.Row="2" Grid.Column="1" Margin="5">
+            <TextBlock Foreground="White" Name="ResultTexblock3"/>
+            <Image Name="ResultImage3" Width="200" Height="200"/>
+        </StackPanel>
+        <StackPanel Background="Brown" Grid.Row="2" Grid.Column="2" Margin="5">
+            <TextBlock Foreground="white" Name="ResultTexblock4"/>
+            <Image Name="ResultImage4" Width="200" Height="200"/>
+        </StackPanel>
+        <StackPanel Background="Brown" Grid.Row="2" Grid.Column="3" Margin="5">
+            <TextBlock Foreground="White" Name="ResultTexblock5"/>
+            <Image Name="ResultImage5" Width="200" Height="200"/>
+        </StackPanel>
+    </Grid>
+</Page>
