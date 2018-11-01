@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="TestUMP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestUMP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <GridView ItemsSource="{Binding collection}" x:Name="ForeCastGridView" Grid.Row="1">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <ScrollViewer>
+                    <StackPanel Height="500" Width="650" Padding="5">
+                        <TextBlock x:Name="VideoIdTextBlock" FontSize="25" Text="{Binding videoId}" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap"/>
+                        <TextBlock x:Name="NameTextBlock" FontSize="15" Text="{Binding name}" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap"/>
+                        <TextBlock x:Name="DescriptionTextBlock" FontSize="15" Text="{Binding description}" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap"/>
+                    </StackPanel>
+                    </ScrollViewer>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
+</Page>
